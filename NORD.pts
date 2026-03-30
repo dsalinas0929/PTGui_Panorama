@@ -1,0 +1,541 @@
+{
+	"$schema": "https://www.ptgui.com/schemas/project_v54.schema.json",
+	"contenttype": "com.ptgui.project_pro",
+	"software": "PTGui Pro 13.7",
+	"fileversion": 54,
+	"compatibleversion": 6,
+	"compatibleapplication": "PTGui 11",
+	"project_v1": {},
+	"project": {
+		"pathseparator": "/",
+		"portraitcameraorientation": "counterclockwise",
+		"metadata": {
+			"resolution": 3e2,
+			"overridelatitude": null,
+			"overridelongitude": null,
+			"overridedirection": null
+		},
+		"outputcomponents": {
+			"hdrlayers": false,
+			"hdrblendplanes": false,
+			"hdrblended": false,
+			"ldrpanorama": true,
+			"ldrlayers": false,
+			"ldrblendplanes": false
+		},
+		"hdrsettings": {
+			"tonemappanorama": false,
+			"fileformat": "exr",
+			"tiffparams": {
+				"compression": "deflate",
+				"datatype": "f32",
+				"alphatype": "unassociated",
+				"jpegxlcompression": {
+					"quality": 95
+				}
+			},
+			"psdparams": {
+				"compression": "none",
+				"datatype": "f32",
+				"layermode": "layered"
+			},
+			"exrparams": {
+				"alphamode": "withalpha",
+				"bitdepth": "half",
+				"compression": "PIZ",
+				"zipcompressionlevel": 4,
+				"dwacompressionlevel": 4.5e1
+			},
+			"dngparams": {
+				"datatype": "f16",
+				"withalpha": true,
+				"compression": "none",
+				"jpegxlcompression": {
+					"quality": 95
+				}
+			},
+			"tonemapsettings": {
+				"targetbrightness": 4.50000000000000011e-1,
+				"autoboost": true,
+				"boostshadows": 2e1,
+				"reducehighlights": 2e1,
+				"compression": 1.49999999999999994e-1
+			},
+			"exposurefusionsettings": {
+				"targetbrightness": 5e-1,
+				"boostshadows": 0,
+				"reducehighlights": 0,
+				"sigma": 2.00000000000000011e-1,
+				"algorithm": "default"
+			},
+			"hdrmethod": "truehdr",
+			"bracketedflow": "auto",
+			"noisefloor": 0,
+			"exposurefusesinglebrackets": false,
+			"precision": "halffloat",
+			"hdrexposurereference": "averageexposure",
+			"hdrexposureoffset": 0,
+			"absoluteexposure": 0
+		},
+		"projectsettings": {
+			"alignsettings": {
+				"generatecp": true,
+				"optimize": true,
+				"roughlyalign": true,
+				"straighten": true,
+				"fit": true,
+				"chooseprojection": true,
+				"optimizeexposure": true,
+				"optimizeexposureonlyifaligned": true,
+				"isprealigned": false,
+				"removenonadjacentcps": false
+			},
+			"templatesettings": {
+				"lens": true,
+				"imageparams": true,
+				"preservepanoramaorientation": false,
+				"mask": true,
+				"panoramasettings": true,
+				"projectsettings": true,
+				"optimizer": true,
+				"linkimages": "autodetect",
+				"cameracurve": "nonraw"
+			},
+			"batchstitchersettings": {
+				"align": false,
+				"stitch": true,
+				"stitchonlyifcontrolpoints": true
+			},
+			"defaultfilenaming": {
+				"defaultprojectfilenamemode": "sameassourceimage",
+				"defaultprojectfilenamecustom": " Panorama",
+				"defaultprojectfoldermode": "sameassourceimage",
+				"defaultprojectfoldercustom": "",
+				"defaultpanoramafilenamemode": "sameasproject",
+				"defaultpanoramafilenamecustom": "",
+				"defaultpanoramafoldermode": "sameasproject",
+				"defaultpanoramafoldercustom": "",
+				"userelativesourceimagepaths": true
+			},
+			"hdrsettings": {
+				"hdrlinkmode": "hdrlink",
+				"hdrlinkwithoutasking": false,
+				"hdraskmode": "ask"
+			},
+			"optimizeraskreinitialize": true,
+			"useexifforbatchbuilder": false,
+			"useexif": true,
+			"honorexiforientation": true,
+			"multilenscompositeimagesupport": "loadtwice",
+			"autosetpanoramato360equirect": true,
+			"useorientationsensordata": true
+		},
+		"outputsize": {
+			"mode": "relative",
+			"fractionofoptimumsize": 1
+		},
+		"previewsizerelative": 2.5e-1,
+		"blend": {
+			"seamfinding": true,
+			"seamfindingprecision": -3,
+			"engine": "zerooverlap",
+			"redmasktransparent": true,
+			"fillholes": false,
+			"maskpushseams": true
+		},
+		"hasbeenoptimized": true,
+		"autocpdone": true,
+		"simpleproject": false,
+		"templateapplied": true,
+		"panoramaparams": {
+			"outputfile": "/Volumes/Jobs/Upwork/14_Panorama_FishyEye/PTGui_Project/NORD1.jpg",
+			"hfov": 1.98930283904075623e2,
+			"vfov": 7.41778052449226379e1,
+			"projection": "cylindrical",
+			"projectioncompression": {
+				"rectilinearx": 0,
+				"rectilineary": 0,
+				"cylindricaly": 0,
+				"transversecylindricalx": 0,
+				"vedutismox": 1,
+				"transversevedutismoy": 1,
+				"stereographic": 1,
+				"rectifisheye": 1
+			},
+			"interpolator": "default",
+			"fileformat": "jpeg",
+			"jpegparams": {
+				"quality": 95
+			},
+			"tiffparams": {
+				"compression": "deflate",
+				"datatype": "u8",
+				"alphatype": "unassociated",
+				"jpegxlcompression": {
+					"quality": 95
+				}
+			},
+			"psdparams": {
+				"compression": "packbits",
+				"datatype": "u8",
+				"layermode": "layered"
+			},
+			"qtvrparams": {
+				"windowsize": [800,600],
+				"cubesizeauto": true,
+				"cubesize": 1000,
+				"jpegquality": 70,
+				"includepreview": false,
+				"pan": {
+					"initial": 0,
+					"min": -1.8e2,
+					"max": 1.8e2
+				},
+				"tilt": {
+					"initial": 0,
+					"min": -9e1,
+					"max": 9e1
+				},
+				"fov": {
+					"initial": 9e1,
+					"min": 1e1,
+					"max": 1.2e2
+				},
+				"autolimits": true
+			},
+			"jpeg2000params": {
+				"datatype": "u8",
+				"withalpha": true,
+				"quality": 80
+			},
+			"dngparams": {
+				"datatype": "u16",
+				"withalpha": true,
+				"compression": "none",
+				"jpegxlcompression": {
+					"quality": 95
+				}
+			},
+			"outputcrop": [0,0,1,1],
+			"outputiccprofile": null,
+			"hdroutputiccprofile": null,
+			"useiccprofilefromsourceimages": true
+		},
+		"optimizer": {
+			"hvcpmode": "twopass",
+			"linkpitch": false,
+			"linkroll": false,
+			"simplemode": true,
+			"simplemodesettings": {
+				"optimizefov": true,
+				"optimizelens": "heavyplusshift",
+				"anchorimagegroup": 0,
+				"anchorimage": null
+			}
+		},
+		"globallenses": [
+			{
+				"lens": {
+					"params": {
+						"projection": "circularfisheye",
+						"fisheyefactor": -5e-1,
+						"focallength": 3.24902209723144697,
+						"theoreticalfocallength": 3,
+						"cropcircleradius": 4.24264068711928477,
+						"cropcenteroffset": {
+							"longside": 0,
+							"shortside": 0
+						},
+						"a": -6.55603860178644027e-2,
+						"b": 2.57473744736136378e-1,
+						"c": 6.48094113764380482e-3,
+						"sensordiagonal": 7.66625071335395347,
+						"mirrored": false
+					},
+					"optimizerflags": {
+						"fov": true,
+						"a": true,
+						"b": true,
+						"c": true,
+						"fisheyefactor": false
+					}
+				},
+				"shift": {
+					"params": {
+						"longside": -1.68665400372344765e-3,
+						"shortside": 3.09691786463910969e-2
+					},
+					"optimizerflags": {
+						"longside": true,
+						"shortside": true
+					}
+				},
+				"shear": {
+					"params": {
+						"hshear": 0,
+						"vshear": 0
+					},
+					"optimizerflags": {
+						"hshear": false,
+						"vshear": false
+					}
+				},
+				"photometric": {
+					"optimizevignetting": "yes",
+					"vignettingcoefficients": [8.57797637581825256e-2,4.1031666100025177e-2,1.6080118715763092e-2,5.99936675280332565e-3,2.20866966992616653e-3]
+				}
+			}
+		],
+		"globalcameracurves": [
+			{
+				"toning": {
+					"luminancecurve": {
+						"a": 2.54999999999999982,
+						"b": 5.99999999999999978e-1
+					},
+					"saturationfactor": 1
+				},
+				"optimize": "auto"
+			}
+		],
+		"photometric": {
+			"whitepoint": null,
+			"exposureoffset": 0,
+			"exposurecompensation": true,
+			"optimizeexposure": "auto",
+			"optimizewhitebalance": "no",
+			"optimizeflare": "no"
+		},
+		"preprocess": {
+			"noisereduction": {
+				"enabled": false,
+				"chroma": 3.19999992847442627e-1,
+				"luminance": 1.25000001862645149e-2
+			},
+			"caremoval": {
+				"enabled": false,
+				"amount": 6.0000002384185791e-1
+			},
+			"fringeremoval": {
+				"enabled": false,
+				"radius": 3
+			}
+		},
+		"postprocess": {
+			"toningfromlinear": {
+				"luminancecurve": {
+					"a": 2.54999999999999982,
+					"b": 5.99999999999999978e-1
+				},
+				"saturationfactor": 1
+			},
+			"additionaltoning": {
+				"luminancecurve": {
+					"a": 0,
+					"b": 0
+				},
+				"saturationfactor": 1
+			}
+		},
+		"imagegroups": [
+			{
+				"size": [4608,3456],
+				"individuallens": null,
+				"individualshift": null,
+				"individualshear": null,
+				"individualcropcenter": null,
+				"globallens": 0,
+				"viewrotate": "auto",
+				"blendweight": 1e2,
+				"position": {
+					"params": {
+						"yaw": -4.39177677483375533e1,
+						"pitch": -5.27641313233533538,
+						"roll": -2.00988961058385485e-1,
+						"vpx": 0,
+						"vpy": 0,
+						"vpd": 0,
+						"vppan": 0,
+						"vptilt": 0
+					},
+					"optimizerflags": {
+						"yaw": false,
+						"pitch": false,
+						"roll": false,
+						"vp": "reset"
+					}
+				},
+				"maskbitmap": null,
+				"linkable": {
+					"position": {
+						"params": {
+							"yaw": -4.39177677483375533e1,
+							"pitch": -5.27641313233533538,
+							"roll": -2.00988961058385485e-1,
+							"vpx": 0,
+							"vpy": 0,
+							"vpd": 0,
+							"vppan": 0,
+							"vptilt": 0
+						},
+						"optimizerflags": {
+							"yaw": false,
+							"pitch": false,
+							"roll": false,
+							"vp": "reset"
+						}
+					},
+					"maskbitmap": null
+				},
+				"images": [
+					{
+						"filename": "dataset/TEST__20250312_20250821_NORD/000202_LEFT.jpg",
+						"metadata": {
+							"aperture": null,
+							"exposuretime": 7.5777759775519371e-4,
+							"iso": 1.01e2,
+							"filetimestamp": 1741884313,
+							"filesize": 3762947,
+							"wbmode": "auto",
+							"exposurebias": null,
+							"pixelformat": {
+								"datatype": "u8",
+								"channels": 3
+							},
+							"iccprofile": "9af965be0c3744bf56d71617b91c2a49"
+						},
+						"usecontrolpoints": true,
+						"include": true,
+						"includeinpreview": true,
+						"useforphotometric": true,
+						"photometric": {
+							"flare": 0,
+							"exposureoffset": 0,
+							"whitepoint": null,
+							"globalcameracurve": 0
+						},
+						"linkable": null,
+						"ispatch": false
+					}
+				]
+			},
+			{
+				"size": [4608,3456],
+				"individuallens": null,
+				"individualshift": null,
+				"individualshear": null,
+				"individualcropcenter": null,
+				"globallens": 0,
+				"viewrotate": "auto",
+				"blendweight": 1e2,
+				"position": {
+					"params": {
+						"yaw": 4.42258139440309606e1,
+						"pitch": -3.53632661020176897,
+						"roll": -1.93561213993905312,
+						"vpx": 0,
+						"vpy": 0,
+						"vpd": 0,
+						"vppan": 0,
+						"vptilt": 0
+					},
+					"optimizerflags": {
+						"yaw": true,
+						"pitch": true,
+						"roll": true,
+						"vp": "reset"
+					}
+				},
+				"maskbitmap": null,
+				"linkable": {
+					"position": {
+						"params": {
+							"yaw": 4.42258139440309606e1,
+							"pitch": -3.53632661020176897,
+							"roll": -1.93561213993905312,
+							"vpx": 0,
+							"vpy": 0,
+							"vpd": 0,
+							"vppan": 0,
+							"vptilt": 0
+						},
+						"optimizerflags": {
+							"yaw": true,
+							"pitch": true,
+							"roll": true,
+							"vp": "reset"
+						}
+					},
+					"maskbitmap": null
+				},
+				"images": [
+					{
+						"filename": "dataset/TEST__20250312_20250821_NORD/000202_RIGHT.jpg",
+						"metadata": {
+							"aperture": null,
+							"exposuretime": 7.5777759775519371e-4,
+							"iso": 1.01e2,
+							"filetimestamp": 1741884313,
+							"filesize": 3927966,
+							"wbmode": "auto",
+							"exposurebias": null,
+							"pixelformat": {
+								"datatype": "u8",
+								"channels": 3
+							},
+							"iccprofile": "9af965be0c3744bf56d71617b91c2a49"
+						},
+						"usecontrolpoints": true,
+						"include": true,
+						"includeinpreview": true,
+						"useforphotometric": true,
+						"photometric": {
+							"flare": 0,
+							"exposureoffset": 0,
+							"whitepoint": null,
+							"globalcameracurve": 0
+						},
+						"linkable": null,
+						"ispatch": false
+					}
+				]
+			}
+		],
+		"controlpoints": [
+			{"t":0,"0":[0,0,4320,421],"1":[1,0,1330,612]},
+			{"t":0,"0":[0,0,3706,1541],"1":[1,0,490,1525]},
+			{"t":0,"0":[0,0,3542,2005],"1":[1,0,334,2043]},
+			{"t":0,"0":[0,0,3278,977],"1":[1,0,139,821]},
+			{"t":0,"0":[0,0,3030,2904],"1":[1,0,121,3239]},
+			{"t":0,"0":[0,0,4010,2751],"1":[1,0,981,2670]},
+			{"t":0,"0":[0,0,3968,1551],"1":[1,0,754,1543]},
+			{"t":0,"0":[0,0,3507,1167],"1":[1,0,326,1094]},
+			{"t":0,"0":[0,0,3799,1857],"1":[1,0,585,1855]},
+			{"t":0,"0":[0,0,4016,581],"1":[1,0,1008,643]},
+			{"t":0,"0":[0,0,3630,2516],"1":[1,0,543,2571]},
+			{"t":0,"0":[0,0,4322,707],"1":[1,0,1225,834]},
+			{"t":0,"0":[0,0,3756,930],"1":[1,0,639,897]},
+			{"t":0,"0":[0,0,3505,1770],"1":[1,0,277,1779]},
+			{"t":0,"0":[0,0,4213,1000],"1":[1,0,1055,1059]},
+			{"t":0,"0":[0,0,4460,2979],"1":[1,0,1449,2703]},
+			{"t":0,"0":[0,0,4528,1517],"1":[1,0,1278,1528]},
+			{"t":0,"0":[0,0,4171,1439],"1":[1,0,955,1446]},
+			{"t":0,"0":[0,0,4422,2149],"1":[1,0,1213,2055]},
+			{"t":0,"0":[0,0,3292,414],"1":[1,0,417,214]},
+			{"t":0,"0":[0,0,3957,2039],"1":[1,0,767,2020]},
+			{"t":0,"0":[0,0,3902,2268],"1":[1,0,747,2253]},
+			{"t":0,"0":[0,0,4279,2622],"1":[1,0,1175,2479]},
+			{"t":0,"0":[0,0,3469,1433],"1":[1,0,245,1390]},
+			{"t":0,"0":[0,0,3385,2255],"1":[1,0,211,2359]}
+		]
+	},
+	"assets": [
+		{
+			"id": "9af965be0c3744bf56d71617b91c2a49",
+			"contenttype": "application/vnd.iccprofile",
+			"size": 644,
+			"encodedsize": 860,
+			"data": "AAAChAAAAAAEQAAAbW50clJHQiBYWVogB+cAAQABAAAAAAAAYWNzcEFQUEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y0AAAAA1UirIG2/dU0vyLj42yymGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALZGVzYwAAAQgAAAAkY3BydAAAASwAAABYclRSQwAAAYQAAAAgZ1RSQwAAAaQAAAAgYlRSQwAAAcQAAAAgclhZWgAAAeQAAAAUZ1hZWgAAAfgAAAAUYlhZWgAAAgwAAAAUY2hybQAAAiAAAAAkY2hhZAAAAkQAAAAsd3RwdAAAAnAAAAAUbWx1YwAAAAAAAAABAAAADGVuVVMAAAAIAAAAHABzAFIARwBCbWx1YwAAAAAAAAABAAAADGVuVVMAAAA8AAAAHABJAEMAQwAgAHAAcgBvAGYAaQBsAGUAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAFAAVABHAHUAaXBhcmEAAAAAAAMAAAACZmYAAPKnAAANWQAAE9AAAApbcGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACltwYXJhAAAAAAADAAAAAmZmAADypwAADVkAABPQAAAKW1hZWiAAAAAAAABvnwAAOPQAAAORWFlaIAAAAAAAAGKWAAC3hwAAGNtYWVogAAAAAAAAJKAAAA+EAAC2zmNocm0AAAAAAAMAAAAAo9cAAFR7AABMzQAAmZoAACZmAAAPXHNmMzIAAAAAAAEMQAAABd3///MpAAAHkgAA/ZD///ui///9ogAAA9oAAMCCWFlaIAAAAAAAAPbWAAEAAAAA0zo="
+		}
+	]
+}

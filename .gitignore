@@ -28,6 +28,11 @@ ENV/
 # macOS
 .DS_Store
 
+# video files
+*.mp4
+*.avi
+*.mov
+
 # Editors and IDEs
 .vscode/
 .idea/

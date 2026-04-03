@@ -15,7 +15,7 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_TEMPLATE = SCRIPT_DIR / "WEST.pts"
-DEFAULT_DATASET_DIR = SCRIPT_DIR / "dataset" / "TEST__20230821_20241031_WEST"
+DEFAULT_DATASET_DIR = SCRIPT_DIR / "dataset" / "TEST_WEST"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "output"
 DEFAULT_PROJECTS_DIR = SCRIPT_DIR / "generated_pts"
 DEFAULT_PTGUI_PATH = Path("/Applications/PTGui.app/Contents/MacOS/PTGui")

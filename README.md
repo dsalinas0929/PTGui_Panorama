@@ -39,7 +39,7 @@ In this repository, templates such as `WEST.pts` and `NORD.pts` represent positi
 
 ### Part 2 - Batch Processing Pipeline
 
-The batch processor is implemented in `processor.py`.
+The batch processor is implemented in `processor_nord.py & processor_west.py`.
 
 It is responsible for:
 
@@ -87,7 +87,7 @@ Those items fit naturally as the next milestone once template stability is confi
 
 1. Validate a PTGui template per fixed camera position.
 2. Place image pairs in a dataset folder using the naming format `xxxxxx_LEFT.jpg` and `xxxxxx_RIGHT.jpg`.
-3. Run `processor.py` against that dataset and template.
+3. Run `processor_west.py` against that dataset and template.
 4. Review rendered panoramas and any failed prefixes.
 5. Repeat per camera position as needed.
 
@@ -97,7 +97,8 @@ Those items fit naturally as the next milestone once template stability is confi
 .
 ├── WEST.pts
 ├── NORD.pts
-├── processor.py
+├── processor_west.py
+├── processor_nord.py
 ├── dataset/
 │   └── TEST__20230821_20241031_WEST/
 │       ├── 000141_LEFT.jpg
@@ -124,31 +125,31 @@ Note: the current automation expects JPEG inputs. If RAW files are part of the a
 Run the default WEST dataset with the default WEST template:
 
 ```bash
-python3 processor.py
+python3 processor_west.py (or processor_nord.py)
 ```
 
 Preview the batch without creating projects or running PTGui:
 
 ```bash
-python3 processor.py --dry-run
+python3 processor_west.py --dry-run
 ```
 
 Process only selected frames:
 
 ```bash
-python3 processor.py --prefix 000654 --prefix 000655
+python3 processor_west.py --prefix 000654 --prefix 000655
 ```
 
 Overwrite panoramas that already exist:
 
 ```bash
-python3 processor.py --overwrite
+python3 processor_west.py --overwrite
 ```
 
 Process another camera position with a different template and folder layout:
 
 ```bash
-python3 processor.py \
+python3 processor_west.py \
   --template path/to/POSITION.pts \
   --dataset-dir path/to/dataset_folder \
   --output-dir output/position_name \
@@ -158,7 +159,7 @@ python3 processor.py \
 Use a custom PTGui executable:
 
 ```bash
-python3 processor.py --ptgui-path "/Applications/PTGui.app/Contents/MacOS/PTGui"
+python3 processor_west.py --ptgui-path "/Applications/PTGui.app/Contents/MacOS/PTGui"
 ```
 
 ## Command-Line Options
@@ -212,7 +213,7 @@ If stitch quality is inconsistent, revisit the PTGui template first. For fixed-p
 
 ## Implementation Notes
 
-The automation logic lives in `processor.py` and uses the following PTGui CLI sequence:
+The automation logic lives in `processor_*.py` and uses the following PTGui CLI sequence:
 
 ```text
 PTGui -createproject LEFT.jpg RIGHT.jpg -output project.pts -template TEMPLATE.pts

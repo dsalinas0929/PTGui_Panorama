@@ -20,7 +20,7 @@ DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "output"
 DEFAULT_PROJECTS_DIR = SCRIPT_DIR / "generated_pts"
 DEFAULT_PTGUI_PATH = Path("/Applications/PTGui.app/Contents/MacOS/PTGui")
 PAIR_PATTERN = re.compile(r"(?P<prefix>.+)_(?P<side>LEFT|RIGHT)\.jpg$", re.IGNORECASE)
-
+ 
 
 
 @dataclass(frozen=True)

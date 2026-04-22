@@ -156,7 +156,7 @@ def print_summary(
         print(f"  {'Check IDs':<12}: {', '.join(failed)}")
     print_divider()
 
-
+# -- Main processing functions --
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
